@@ -1,0 +1,27 @@
+html,body{
+    background: #fff;
+    padding: 10px;
+
+}
+h1{
+    text-align: center;
+}
+img{
+    /* display: flex; */
+    width: 20%;
+    margin: 10px;
+    /* height: auto; */
+    /* vertical-align: middle; */
+    display: inline-block;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+@media(max-width:387px){
+    img{
+        flex-wrap: row;
+        flex-direction:row;
+        margin: 18px;
+    }
+}
